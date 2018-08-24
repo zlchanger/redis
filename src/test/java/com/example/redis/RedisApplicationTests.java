@@ -1,8 +1,5 @@
 package com.example.redis;
 
-import com.example.redis.pojo.User;
-import com.example.redis.produceAndconsume.CThread;
-import com.example.redis.produceAndconsume.PThread;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,10 +31,7 @@ public class RedisApplicationTests {
 //
 //		String key = "battcn:user:1";
 //		redisTemplate.opsForValue().set(key, new User(1L, "u1", "pa"));
-//
 //		final User user = (User) redisTemplate.opsForValue().get(key);
-//		cThread.execute();
-//		pThread.execute();
 	}
 
 }
