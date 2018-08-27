@@ -1,4 +1,4 @@
-package com.example.redis.queue;
+package com.example.redis.pubSub;
 
 /**
  * @Auther: changzhaoliang

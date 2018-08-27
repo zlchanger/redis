@@ -1,8 +1,8 @@
 package com.example.redis.config;
 
-import com.example.redis.queue.MessagePublisher;
-import com.example.redis.queue.RedisMessagePublisher;
-import com.example.redis.queue.RedisMessageSubscriber;
+import com.example.redis.pubSub.MessagePublisher;
+import com.example.redis.pubSub.RedisMessagePublisher;
+import com.example.redis.pubSub.RedisMessageSubscriber;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;

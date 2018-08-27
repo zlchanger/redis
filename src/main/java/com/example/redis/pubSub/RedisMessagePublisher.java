@@ -1,4 +1,4 @@
-package com.example.redis.queue;
+package com.example.redis.pubSub;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

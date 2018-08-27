@@ -1,7 +1,7 @@
 package com.example.redis.controller;
 
-import com.example.redis.queue.RedisMessagePublisher;
-import com.example.redis.queue.RedisMessageSubscriber;
+import com.example.redis.pubSub.RedisMessagePublisher;
+import com.example.redis.pubSub.RedisMessageSubscriber;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.example.redis.queue;
+package com.example.redis.pubSub;
 
 import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.connection.MessageListener;
