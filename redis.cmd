@@ -1,4 +1,4 @@
-##本项目配置的springboot版本为2.X，顾redis的客户端默认lettuce，而不是jedis。
+##本项目配置的springboot版本为2.X，redis的客户端默认lettuce，本文使用的是jedis。
 
 
 redis的应用场景
@@ -19,3 +19,5 @@ redis的应用场景
     3-如果应用有一个发帖排行榜的功能，便选择sorted set吧，将集合的 key 设为POST_RANK。当用户发帖后，使用zincrby将该用户 id 的 score 增长 1。sorted set会重新进行排序，用户所在排行榜的位置也就会得到实时的更新。
 6、好友关系（利用redis的快速计算集合中交集这个功能）
 7、分布式锁（利用key set的原子性，增加有效时间）
+    1-纯代码实现redis分布式锁
+    2-利用spring-boot-klock-starter实现分布式锁
